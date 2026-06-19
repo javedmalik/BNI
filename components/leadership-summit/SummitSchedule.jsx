@@ -8,13 +8,13 @@ export default function SummitSchedule() {
       <div className={styles.scheduleHeader}>
         <h2>THE SCHEDULE</h2>
 
-        <Image
+        {/* <Image
           src="/images/leadership-summit/bni-logo.png"
           alt="Business Needs Inc."
           width={160}
           height={55}
           className={styles.scheduleLogo}
-        />
+        /> */}
       </div>
 
       <div className={styles.timeline}>

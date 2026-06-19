@@ -5,7 +5,7 @@ import { speakers } from "./summitData";
 export default function SummitSpeakers() {
   return (
     <section className={styles.speakersSection}>
-      <div className={styles.speakersTopLogo}>
+      {/* <div className={styles.speakersTopLogo}>
         <Image
           src="/images/leadership-summit/bni-logo.png"
           alt="Business Needs Inc."
@@ -13,7 +13,7 @@ export default function SummitSpeakers() {
           height={40}
           className={styles.bniSmallLogo}
         />
-      </div>
+      </div> */}
 
       <h2>Meet our Panel of Speakers:</h2>
 
