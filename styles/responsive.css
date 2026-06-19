@@ -1,0 +1,220 @@
+@media screen and (min-width:576px) {
+}
+@media screen and (min-width:768px) {
+}
+@media screen and (min-width:992px) {
+    .navbar-expand-lg .navbar-collapse{justify-content: end;}
+}
+@media screen and (min-width:1200px) {
+    .container{ max-width:96%; margin: 0 auto;}  
+}
+@media screen and (min-width:1281px) {
+
+}
+@media screen and (min-width:1367px) {
+    footer{ font-size: 14px;}
+    footer p{ font-size: 14px;}
+}
+@media screen and (min-width:1599px) {
+    footer{ font-size: 16px;}
+    footer p{ font-size: 16px;}
+}
+
+@media only screen and (max-width: 1599px) {
+}
+@media only screen and (max-width: 1399px) {
+    .empolyee-right .empolyee-img{background-size: contain;}
+    .leaders-slider .slick-prev{left: 170px;}
+    .leaders-slider .slick-next {right: 170px;}
+}
+@media only screen and (max-width: 1279px) {
+    .case-study-slider .slick-list{ padding-bottom: 60px;}
+    .case-study-slide .slide-no{bottom: -55px;}
+    .leaders-slider .slick-prev{left: 160px;}
+    .leaders-slider .slick-next {right: 160px;}
+}
+
+@media only screen and (max-width: 1199px) {
+    .navbar-light .navbar-nav .nav-link{ font-size: 15px;}
+    .banner-content p {font-size: 21px;}
+    .banner-wrapper .slick-prev {left: 7px;}
+    .banner-wrapper .slick-next {right: 7px;}
+    .reimagine-business{margin-top: -160px;}
+    .giving-back .logos a{width: 47%;}
+    .responsibility{padding: 0 2vw;}
+    .review-slide{ padding: 15px;}
+    .sign-up .btn-blue{padding: 11px 20px;}
+    .leaders-slider .slick-prev{left: 150px;}
+    .leaders-slider .slick-next {right: 150px;}
+    .clients-slider .slick-prev{left: 46%;}
+    .clients-slider .slick-next{right: 46%;}
+}
+@media only screen and (max-width: 1079px) {
+    .navbar-light .navbar-brand {margin-right: 3%;}
+    .banner-content p{ font-size: 18px;}
+    .leaders-slider .slick-prev{left: 140px;}
+    .leaders-slider .slick-next {right: 140px;}
+}
+@media only screen and (max-width: 1023px) {
+    .navbar-light .navbar-brand {margin-right: 2%;}
+    .navbar-light .navbar-nav .nav-item {padding: 0 7px;}
+    .reimagine-business {margin-top: -130px;}
+    .custom-list li{ font-size: 20px;}
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-light .navbar-toggler{  border-color: #6161FF;}  
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-nav>li {
+        float: none; border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .navbar-default .navbar-nav > li > a { padding: 10px 15px;}
+    .head-right-area select{ font-size: 12px;}
+    .head-right-area .btn-orange{ font-size: 12px;}
+    .navbar-light .navbar-brand{ max-width: 180px; padding: 0; }
+    .top-footer{ padding: 30px 0;}
+    .footer-logo{ max-width: 140px;}
+    .banner-content p > br{ display: none;}
+    .banner-content p{margin-bottom: 30px;}
+    .reimagine-business{ padding: 30px;margin-top: -100px;}
+    .business-box{padding: 0;text-align: center;}
+    .reimagine-business .custom-border{  border-left: none; border-top:1px solid rgba(190, 188, 181, 0.72); padding-top: 15px; margin-top: 15px; }
+    .section-top-content{ font-size: 20px;}
+    .business-box .content{ font-size: 20px;}
+    .about-content .blue-btn{ margin-bottom: 0;}
+    .about-content{ font-size: 20px;}
+    .about-content .content p:last-child {margin-bottom: 30px;}
+    .top-category-wrapper{ padding: 70px 0 40px;}
+    .top-category{ max-width:433px; margin:0 auto 30px;}
+    .top-category-right{ margin-bottom:30px; text-align: left;}
+    .why-choose-wrapper .choose-content{ margin: 0 3%;}
+    .why-choose-wrapper .choose-image{ text-align: right;}
+    .case-study-slide .case-study-content{margin-bottom: 30px;}
+    .case-study-slide .case-content{ margin-bottom: 30px; font-size: 20px;}
+    .makes-us .section-title{ padding-top: 0;}
+    .makes-logo{ margin-bottom: 30px;}
+    .responsibility{ padding: 15px 0 0; margin-top: 15px; border-left: none; border-top: 1px solid #5D5DE7;}
+    .our-platforms-box{ max-width: 409px; margin: 0 auto 30px; font-size: 20px;}
+    .our-platforms-box .description{ margin-bottom: 15px;}
+    .recent-news-wrapper{ padding: 70px 0 40px;}
+    .empolyee-wrapper{ background: #E3E6E8;}
+    .empolyee-slide .empolyee-content{ font-size: 20px; margin-bottom: 30px;}
+    .clients-slider .slick-prev{left: 44%;}
+    .clients-slider .slick-next{right: 44%;}
+    .leaders-slider .slick-prev{left: 130px;}
+    .leaders-slider .slick-next {right: 130px;}
+    .leader-slide{ font-size: 18px;}
+    .contact-information{ margin-top: 30px;}
+    .copyright-wrapper{ text-align: center;}
+    .foot-link{ text-align: center; margin-top: 10px;}
+    .recent-news-right{ text-align: left;}
+}
+
+@media only screen and (max-width: 899px) {
+    .banner-content p {font-size: 15px;}
+    .leaders-slider .slick-prev{left: 120px;}
+    .leaders-slider .slick-next {right: 120px;}
+}
+@media only screen and (max-width: 799px) {
+
+}
+@media only screen and (max-width: 809px) {
+    .leaders-slider .slick-prev{left: 115px;}
+    .leaders-slider .slick-next {right: 115px;}
+}
+@media only screen and (max-width: 767px){
+    .blue-btn a, .black-outline-btn a, .our-platforms-box .black-outline-btn a, .white-btn a{ font-size: 14px;padding: 10px 15px;}
+    .custom-list li{font-size: 18px;margin:0 0 30px;padding:0 0 0 45px;}
+    .custom-list li:before{ font-size: 15px; top: 0;}
+    .navbar-light .navbar-brand{max-width: 140px;}
+    .section-title {font-size: 4.4vw;}
+    .copyright-wrapper{ text-align: center;}
+    .copyright-wrapper .copyright{ margin: 0 0 5px;}
+    .banner-content p {font-size: 12px;}
+    .banner-content .banner-btns a{ min-width: auto;}
+    .reimagine-business-wrapper{ padding-top: 70px;}
+    .reimagine-business{ margin-top: 0;}
+    .section-top-content {font-size: 18px;}
+    .business-box .content, .about-content, .responsibility, .empolyee-slide .empolyee-content, .case-study-slide .case-content, .our-platforms-box{font-size: 18px;}
+    .empolyee-slider .slick-list{ padding-bottom: 40px;}
+    .empolyee-slide .slide-no{bottom: -35px;}
+    .clients-slider .slick-prev{left: 42%;}
+    .clients-slider .slick-next{right: 42%;}
+    .leader-slide{margin: 20px 25px;padding: 20px 15px; font-size: 16px;}
+    .leaders-slider .slick-prev{left:75px;}
+    .leaders-slider .slick-next {right:75px;}
+    .quick-link{ margin-top: 30px;}
+    footer h4{margin-bottom: 15px;}
+    .copyright-wrapper{ margin: 0;}
+    .social-media-links{ margin-top: 20px;}
+    .review-slide{ font-size: 16px;}
+    .banner-wrapper .slick-prev {left:0px;}
+    .banner-wrapper .slick-next {right:0px;}
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+      }
+    
+      .timeline-item.right {
+        left: 0 !important;
+      }
+    
+      .timeline::after {
+        left: 31px;
+      }
+    
+      .timeline-item::after {
+        left: 15px;
+      }
+}
+
+@media only screen and (max-width: 639px){
+    .section-title {font-size: 4.8vw;}
+    .business-box h2{font-size: 4vw;}
+    .leaders-slider .slick-prev{left:65px;}
+    .leaders-slider .slick-next {right:65px;}
+}
+
+@media only screen and (max-width: 575px){
+    .section-title {font-size: 5vw;}
+    .banner-content h2{ font-size: 4vw;}
+    .footer-logo{ margin: 0 auto 10px;}
+    .banner-wrapper .slick-prev, .banner-wrapper .slick-next{ width: 12px; height: 14px;}
+    .banner-wrapper .slick-prev:before, .banner-wrapper .slick-next::before{ font-size: 14px;} 
+    .business-box h2 {font-size: 5vw;}
+}
+
+@media only screen and (max-width: 479px){
+    .our-platforms-slider .slide-box:hover{ border-radius: 20px;}
+    .our-platforms-slider .slide-box .content{ border-radius: 20px;}
+}
+
+@media only screen and (max-width: 427px){
+}
+
+@media only screen and (max-width: 413px){
+}
+
+@media only screen and (max-width: 410px){
+
+}
+
+@media only screen and (max-width: 389px){
+}
+
+@media only screen and (max-width: 374px){
+
+}
+
+@media only screen and (max-width: 359px){
+}
+

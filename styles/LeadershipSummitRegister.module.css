@@ -1,0 +1,1014 @@
+.heroSection {
+  position: relative;
+  min-height: 630px;
+  background-image: url("/images/leadership-summit/hero-bg.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 54px 0 0 175px;
+  color: #17334b;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+}
+
+.heroContent h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 100px;
+  line-height: 0.92;
+  font-weight: 500;
+  margin: 0 0 18px;
+  letter-spacing: -2px;
+  color: #17334b;
+}
+
+.heroContent h3 {
+  font-size: 21px;
+  line-height: 1;
+  margin: 0 0 18px;
+  font-weight: 800;
+  color: #17334b;
+}
+
+.heroContent p {
+  max-width: 1260px;
+  font-size: 30px;
+  line-height: 1.02;
+  margin: 0 0 26px;
+  color: #17334b;
+}
+
+.heroButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #17334b;
+  color: #fff;
+  text-decoration: none;
+  height: 44px;
+  min-width: 155px;
+  padding: 0 22px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+/* About */
+
+.aboutSection {
+  min-height: 720px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.16),
+      rgba(255, 255, 255, 0.16)
+    ),
+    url("/images/leadership-summit/about-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0 0 50px;
+}
+
+.aboutOverlay {
+  width: 920px;
+  min-height: 530px;
+  background: #f7efe2;
+  padding: 38px 42px;
+  color: #17334b;
+}
+
+.aboutOverlay h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 68px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0 0 34px;
+}
+
+.aboutOverlay p {
+  font-size: 18px;
+  line-height: 1.18;
+  margin: 0 0 20px;
+  color: #111;
+  text-align: justify;
+}
+
+.aboutBrand {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px !important;
+  text-align: left !important;
+  color: #17334b !important;
+}
+
+.eventMeta {
+  margin-top: 18px;
+}
+
+.eventMeta div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+  color: #17334b;
+}
+
+.eventMeta span {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #17334b;
+  color: #f7efe2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.eventMeta strong {
+  font-size: 22px;
+  color: #17334b;
+}
+
+/* Speakers */
+
+.speakersSection {
+  position: relative;
+  background: #f7efe2;
+  padding: 32px 60px 78px;
+  color: #17334b;
+  min-height: 1180px;
+  overflow: visible;
+}
+
+.speakersTopLogo {
+  position: absolute;
+  right: 70px;
+  top: 38px;
+  width: 120px;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.bniSmallLogo {
+  width: 115px;
+  height: auto;
+  object-fit: contain;
+}
+
+.speakersSection h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0 0 48px 18px;
+  color: #17334b;
+}
+
+.speakersList {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+  max-width: 900px;
+  margin-left: 70px;
+}
+
+.speakerRow {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.speakerImageWrap {
+  position: relative;
+  width: 198px;
+  height: 198px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(135deg, #d6a135, #f5df9b, #b98724);
+  box-shadow: 0 12px 28px rgba(7, 53, 86, 0.14);
+  overflow: hidden;
+}
+
+.speakerImageWrap::before,
+.speakerImageWrap::after {
+  display: none;
+}
+
+
+.speakerImage {
+  position: relative;
+  z-index: 2;
+  width: 188px;
+  height: 188px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 4px solid #f7efe2;
+  display: block;
+  background: #f7efe2;
+}
+
+.speakerInfo {
+  padding-top: 6px;
+}
+
+.speakerInfo h3 {
+  font-size: 36px;
+  line-height: 1;
+  margin: 0 0 10px;
+  color: #083553;
+  font-weight: 900;
+  font-family: Arial, sans-serif;
+}
+
+.designation {
+  color: #d5a13d !important;
+  font-size: 14px !important;
+  font-weight: 800;
+  margin: 0 0 34px !important;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.speakerInfo h4 {
+  font-size: 18px;
+  line-height: 1;
+  margin: 0 0 26px;
+  color: #17334b;
+  font-weight: 900;
+  font-family: Arial, sans-serif;
+}
+
+.speakerInfo p {
+  max-width: 525px;
+  font-size: 13.5px;
+  line-height: 1.35;
+  color: #112b43;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Schedule */
+
+.scheduleSection {
+  position: relative;
+  background: #f7efe2;
+  color: #17334b;
+  min-height: 730px;
+  padding: 90px 88px 105px;
+}
+
+.scheduleHeader {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 132px;
+}
+
+.scheduleHeader h2 {
+  font-family: Arial, sans-serif;
+  font-size: 42px;
+  line-height: 1;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #0b2944;
+}
+
+.scheduleLogo {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+  margin-top: -16px;
+  margin-right: 22px;
+}
+
+.timeline {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto 84px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 42px;
+  text-align: center;
+  justify-content: center;
+  align-items: start;
+}
+
+.timelineItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.timelineItem h4 {
+  font-family: Arial, sans-serif;
+  font-size: 27px;
+  line-height: 1;
+  margin: 0 0 42px;
+  color: #063357;
+  font-weight: 900;
+}
+
+.timelineDot {
+  width: 66px;
+  height: 66px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 25px;
+}
+
+.blueDot {
+  background: #073556;
+}
+
+.goldDot {
+  background: #d4a33b;
+}
+
+.timelineItem p {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 900;
+  margin: 0 auto;
+  max-width: 210px;
+  line-height: 1.22;
+  color: #17334b;
+  text-align: center;
+}
+
+.detailsBox {
+  width: calc(100% - 135px);
+  margin: 0 auto;
+  border: 1.5px solid #d4a33b;
+  border-radius: 5px;
+  padding: 24px 19px;
+  min-height: 118px;
+  color: #17334b;
+}
+
+.detailsBox span {
+  display: block;
+  color: #d4a33b;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.detailsBox p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 23px;
+  line-height: 1.25;
+  color: #0b2944;
+}
+
+/* Expectation + Register */
+
+.expectSection {
+  background: #17334b;
+  color: #f7efe2;
+  padding: 60px 0 72px;
+}
+
+.expectInner {
+  width: calc(100% - 140px);
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+.expectInner h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0 0 64px;
+  color: #f7efe2;
+  letter-spacing: -1px;
+}
+
+.expectGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 78px;
+  margin-bottom: 118px;
+}
+
+.expectCard {
+  color: #f7efe2;
+}
+
+.expectImageWrap {
+  width: 220px;
+  height: 200px;
+  margin-bottom: 16px;
+  border: 4px solid #f7efe2;
+  background: #f7efe2;
+}
+
+.expectImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.expectCard h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.05;
+  margin: 0 0 18px;
+  color: #f7efe2;
+  font-weight: 700;
+}
+
+.expectCard p {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 0.96;
+  margin: 0;
+  color: #f7efe2;
+  max-width: 235px;
+}
+
+.registrationArea {
+  display: grid;
+  grid-template-columns: 43% 57%;
+  align-items: start;
+  padding-bottom: 0;
+}
+
+.registrationTitle {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 72px;
+  line-height: 0.92;
+  color: #f7efe2;
+  text-align: center;
+  padding-top: 42px;
+  letter-spacing: -2px;
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+.registerForm {
+  max-width: 620px;
+  margin-left: 30px;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  align-items: end;
+  margin-bottom: 23px;
+}
+
+.formRow label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  line-height: 0.94;
+  color: #f7efe2;
+  font-weight: 400;
+}
+
+.formRow input,
+.formRow textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 4px dotted #f7efe2;
+  color: #fff;
+  outline: none;
+  min-height: 34px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  border-radius: 0;
+  padding: 0 0 4px;
+}
+
+.formRow textarea {
+  resize: none;
+  height: 58px;
+  line-height: 1.2;
+}
+
+.registerForm button {
+  display: block;
+  margin: 44px auto 0;
+  background: #f7efe2;
+  color: #17334b;
+  border: none;
+  border-radius: 28px;
+  padding: 12px 22px;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 8px 10px 16px rgba(0, 0, 0, 0.35);
+}
+
+.registerForm button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.errorBox {
+  background: #fff0f0;
+  color: #b42318;
+  border: 1px solid #f5c2c0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.successBox {
+  background: rgba(247, 239, 226, 0.12);
+  border: 1px solid rgba(247, 239, 226, 0.5);
+  border-radius: 14px;
+  padding: 22px;
+  color: #f7efe2;
+  max-width: 620px;
+  margin-left: 30px;
+}
+
+.successBox h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #f7efe2;
+}
+
+.successBox p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .heroSection {
+    min-height: 430px;
+    padding: 50px 28px 80px;
+    background-position: center top;
+  }
+
+  .heroContent h1 {
+    font-size: 48px;
+    line-height: 0.95;
+  }
+
+  .heroContent h3 {
+    font-size: 17px;
+  }
+
+  .heroContent p {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 1.1;
+  }
+
+  .aboutSection {
+    padding: 30px 20px;
+    min-height: auto;
+  }
+
+  .aboutOverlay {
+    width: 100%;
+    min-height: auto;
+    padding: 30px 24px;
+  }
+
+  .aboutOverlay h2 {
+    font-size: 42px;
+  }
+
+  .speakersSection {
+  padding: 35px 0 70px;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.speakersTopLogo {
+  right: 24px;
+  top: 30px;
+  width: 90px;
+}
+
+.bniSmallLogo {
+  width: 90px;
+}
+
+.speakersSection h2 {
+  font-size: 40px;
+  margin: 0 24px 40px;
+  max-width: 75%;
+}
+
+.speakersList {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  max-width: none;
+  margin-left: 0;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 24px 18px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.speakersList::-webkit-scrollbar {
+  display: none;
+}
+
+.speakerRow {
+  flex: 0 0 78%;
+  max-width: 78%;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 22px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(214, 161, 53, 0.35);
+  border-radius: 22px;
+  padding: 28px 22px 30px;
+}
+
+.speakerImageWrap {
+  width: 178px;
+  height: 178px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.speakerImage {
+  width: 168px;
+  height: 168px;
+}
+
+.speakerInfo {
+  padding-top: 0;
+}
+
+.speakerInfo h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.designation {
+  margin-bottom: 22px !important;
+  text-align: center;
+}
+
+.speakerInfo h4 {
+  text-align: center;
+}
+
+.speakerInfo p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+  .designation {
+    margin-bottom: 22px !important;
+  }
+
+  .scheduleSection {
+  min-height: auto;
+  padding: 55px 24px 70px;
+}
+
+.scheduleHeader {
+  margin-bottom: 65px;
+}
+
+.scheduleHeader h2 {
+  font-size: 32px;
+}
+
+.scheduleLogo {
+  width: 110px;
+  margin-top: -8px;
+  margin-right: 0;
+}
+
+.timeline {
+  max-width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px 28px;
+  margin-bottom: 60px;
+}
+
+.timelineItem h4 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.timelineDot {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 18px;
+}
+
+.timelineItem p {
+  font-size: 18px;
+  max-width: 180px;
+}
+
+.detailsBox {
+  width: 100%;
+  min-height: auto;
+}
+
+.detailsBox p {
+  font-size: 18px;
+}
+
+  .expectSection {
+    padding: 46px 0 60px;
+  }
+
+  .expectInner {
+    width: calc(100% - 40px);
+  }
+
+  .expectInner h2 {
+    font-size: 38px;
+    margin-bottom: 42px;
+  }
+
+  .expectGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 70px;
+  }
+
+  .expectImageWrap {
+    width: 100%;
+    height: 170px;
+  }
+
+  .expectCard h3 {
+    font-size: 17px;
+  }
+
+  .expectCard p {
+    font-size: 16px;
+    line-height: 1.05;
+  }
+
+  .registrationArea {
+    grid-template-columns: 1fr;
+  }
+
+  .registrationTitle {
+    text-align: left;
+    font-size: 46px;
+    padding-top: 0;
+    margin-bottom: 32px;
+  }
+
+  .registerForm,
+  .successBox {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+
+  .formRow label {
+    font-size: 24px;
+  }
+
+  .registerForm button {
+    font-size: 22px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 560px) {
+  .heroSection {
+    min-height: 420px;
+    padding: 42px 22px 70px;
+    background-position: center top;
+  }
+
+  .heroContent h1 {
+    font-size: 38px;
+    letter-spacing: -1px;
+  }
+
+  .heroContent p {
+    font-size: 14px;
+  }
+
+  .heroButton {
+    height: 38px;
+    min-width: 132px;
+    font-size: 10px;
+  }
+
+  .speakersSection h2 {
+  font-size: 32px;
+  margin: 0 20px 34px;
+  max-width: 72%;
+}
+
+.speakersList {
+  gap: 18px;
+  padding: 0 20px 18px;
+}
+
+.speakerRow {
+  flex: 0 0 86%;
+  max-width: 86%;
+  padding: 24px 18px 28px;
+}
+
+.speakerImageWrap {
+  width: 168px;
+  height: 168px;
+  padding: 5px;
+}
+
+.speakerImage {
+  width: 158px;
+  height: 158px;
+}
+
+.speakerInfo h3 {
+  font-size: 26px;
+}
+
+.designation {
+  font-size: 12px !important;
+  margin-bottom: 18px !important;
+}
+
+.speakerInfo h4 {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.speakerInfo p {
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+  .scheduleHeader {
+  gap: 18px;
+}
+
+.scheduleLogo {
+  width: 88px;
+}
+
+.scheduleHeader h2 {
+  font-size: 27px;
+}
+
+.timeline {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 38px 20px;
+  margin-bottom: 48px;
+}
+
+.timelineItem h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.timelineDot {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 16px;
+}
+
+.timelineItem p {
+  font-size: 14px;
+  max-width: 145px;
+}
+
+.expectInner {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.expectInner h2 {
+  font-size: 30px;
+  line-height: 0.95;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.expectGrid {
+  display: flex;
+  grid-template-columns: none;
+  gap: 18px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0 0 18px;
+  margin-bottom: 60px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.expectGrid::-webkit-scrollbar {
+  display: none;
+}
+
+.expectCard {
+  flex: 0 0 86%;
+  max-width: 86%;
+  scroll-snap-align: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.expectImageWrap {
+  width: 100%;
+  max-width: 240px;
+  height: 190px;
+  margin: 0 auto 16px;
+  border: 3px solid #f7efe2;
+}
+
+.expectCard h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.expectCard p {
+  font-size: 16px;
+  line-height: 1.05;
+  max-width: 260px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.registrationArea {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.registrationTitle {
+  font-size: 42px;
+  line-height: 0.92;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 34px;
+}
+
+.registerForm,
+.successBox {
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.formRow {
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.formRow label {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.formRow input,
+.formRow textarea {
+  font-size: 18px;
+}
+
+.registerForm button {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+  .sectionLogo {
+    display: none;
+  }
+}
