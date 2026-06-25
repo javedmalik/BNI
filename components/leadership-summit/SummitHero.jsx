@@ -1,9 +1,19 @@
+import Image from "next/image";
 import styles from "../../styles/LeadershipSummitRegister.module.css";
 
 export default function SummitHero() {
   return (
     <section className={styles.heroSection}>
       <div className={styles.heroContent}>
+        <Image
+          src="/images/leadership-summit/bni-logo.png"
+          alt="Business Needs Inc."
+          width={180}
+          height={60}
+          className={styles.heroLogo}
+          priority
+        />
+
         <h1>
           2026 Business Needs
           <br />

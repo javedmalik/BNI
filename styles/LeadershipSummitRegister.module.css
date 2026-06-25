@@ -18,6 +18,15 @@
   max-width: 1200px;
 }
 
+
+.heroLogo {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 24px;
+  display: block;
+}
+
 .heroContent h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 100px;
@@ -816,6 +825,11 @@
     padding: 42px 22px 70px;
     background-position: center top;
   }
+
+  .heroLogo {
+  width: 120px;
+  margin-bottom: 18px;
+}
 
   .heroContent h1 {
     font-size: 38px;
