@@ -227,7 +227,7 @@
   margin: 0 0 10px;
   color: #083553;
   font-weight: 900;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .designation {
@@ -235,7 +235,7 @@
   font-size: 14px !important;
   font-weight: 800;
   margin: 0 0 34px !important;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -246,7 +246,7 @@
   margin: 0 0 26px;
   color: #17334b;
   font-weight: 900;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 .speakerInfo p {
@@ -255,7 +255,7 @@
   line-height: 1.35;
   color: #112b43;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 /* Schedule */
@@ -277,7 +277,7 @@
 }
 
 .scheduleHeader h2 {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 42px;
   line-height: 1;
   margin: 0;
@@ -296,7 +296,7 @@
 
 .timeline {
   width: 100%;
-  max-width: 980px;
+  max-width: 1380px;
   margin: 0 auto 84px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -315,7 +315,7 @@
 }
 
 .timelineItem h4 {
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 27px;
   line-height: 1;
   margin: 0 0 42px;
@@ -340,11 +340,11 @@
 }
 
 .timelineItem p {
-  font-family: Arial, sans-serif;
-  font-size: 19px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
   font-weight: 900;
   margin: 0 auto;
-  max-width: 210px;
+  max-width: 510px;
   line-height: 1.22;
   color: #17334b;
   text-align: center;
@@ -363,7 +363,7 @@
 .detailsBox span {
   display: block;
   color: #d4a33b;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 12px;
   font-weight: 900;
   margin-bottom: 32px;
@@ -371,7 +371,7 @@
 
 .detailsBox p {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 23px;
   line-height: 1.25;
   color: #0b2944;
@@ -437,8 +437,8 @@
 
 .expectCard p {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  line-height: 0.96;
+  font-size: 16px;
+  line-height: 1.1;
   margin: 0;
   color: #f7efe2;
   max-width: 235px;
@@ -454,7 +454,7 @@
 .registrationTitle {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 72px;
-  line-height: 0.92;
+  line-height: 1.2;
   color: #f7efe2;
   text-align: center;
   padding-top: 42px;
@@ -511,7 +511,7 @@
   border: none;
   border-radius: 28px;
   padding: 12px 22px;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 28px;
   line-height: 1;
   font-weight: 900;
