@@ -1,58 +1,289 @@
 export const speakers = [
+ 
   {
+    name: "Mr. Mandeep Vats",
+    designation: "Senior Vice President – Global Operations (CEO Office), Doceree Operations & Business Strategy Leader.",
+    topic: "Topic Title Goes Here",
+    description:
+      "Join us for an inspiring session with Mr. Mandeep Vats, who will share insights from his 28+ years of leadership, business transformation, and operational excellence. From leading global operations at organizations like Doceree, Birlasoft, Airtel, and Motherson Sumi to now being part of Vedaspark, his journey is filled with valuable lessons for every professional.",
+    image: "/images/leadership-summit/mv.jpg",
+  },
+  {
+    name: "Mr. Mudit Gangal",
+    designation: "Co-Founder of Rasanomics",
+    topic: "Topic Title Goes Here",
+    description:
+      "Join us for an inspiring session with Mr. Mudit Gangal, Co-Founder of Rasanomics and a former Citi leader, as he shares insights from his 32+ years of global leadership across Wealth Management, Risk & Compliance, and Business Strategy. Learn from his remarkable journey, leadership experiences, and the lessons that have shaped his career and passion for mentoring future leaders.",
+    image: "/images/leadership-summit/mg2.jpg",
+  },
+   {
     name: "Dr. Pankaj Mital",
-    designation: "Group Chairman of Business Needs Inc.",
+    designation: "Group Chairman and CEO of Business Needs Inc.",
     topic: "Topic Title Goes Here",
-    description:
-      "Add a short speaker introduction or 2 to 3 lines that set context before the session begins.",
+   description:
+  "Join us for an insightful session with Dr. Pankaj Mital, where he will share his perspectives on \"Building High Performing Teams\" and \"Why Failing is Important.\" Drawing from 35+ years of global leadership and entrepreneurship, he'll explore how strong teams are built, why failure is a catalyst for growth, and the lessons behind his latest book, Failure is the Highway to Success.",
     image: "/images/leadership-summit/pankaj-mital1.jpg",
-  },
-  {
-    name: "Speaker Name",
-    designation: "Designation / Company",
-    topic: "Topic Title Goes Here",
-    description:
-      "Add a short speaker introduction or 2 to 3 lines that set context before the session begins.",
-    image: "",
-  },
-  {
-    name: "Speaker Name",
-    designation: "Designation / Company",
-    topic: "Topic Title Goes Here",
-    description:
-      "Add a short speaker introduction or 2 to 3 lines that set context before the session begins.",
-    image: "",
-  },
-  {
-    name: "Speaker Name",
-    designation: "Designation / Company",
-    topic: "Topic Title Goes Here",
-    description:
-      "Add a short speaker introduction or 2 to 3 lines that set context before the session begins.",
-    image: "",
-  },
+  }
+  // {
+  //   name: "Speaker Name",
+  //   designation: "Designation / Company",
+  //   topic: "Topic Title Goes Here",
+  //   description:
+  //     "Add a short speaker introduction or 2 to 3 lines that set context before the session begins.",
+  //   image: "",
+  // },
 ];
+
+// export const scheduleItems = [
+//   {
+//     time: "12:00",
+//     title: "Speaker Presentations",
+//     color: "blue",
+//   },
+//   {
+//     time: "02:00",
+//     title: "Lunch",
+//     color: "gold",
+//   },
+//   {
+//     time: "02:45",
+//     title: "Panel Discussions",
+//     color: "blue",
+//   },
+//   {
+//     time: "04:30",
+//     title: "Breakout Session and Networking",
+//     color: "gold",
+//   },
+// ];
+
+// export const scheduleItems = [
+//   {
+//     title: "Opening Address",
+//     time: "12:00 PM – 12:15 PM",
+//     side: "left",
+//   },
+//   {
+//     title: "Welcome Address",
+//     time: "12:15 PM – 12:30 PM",
+//     side: "right",
+//   },
+//   {
+//     title: "Keynote Address",
+//     time: "12:30 PM – 12:45 PM",
+//     side: "left",
+//   },
+//   {
+//     title: "Leadership Talks",
+//     time: "12:45 PM – 01:30 PM",
+//     side: "right",
+//   },
+//   {
+//     title: "Panel Discussion 1",
+//     time: "1:30 PM – 2:00 PM",
+//     side: "left",
+//   },
+//   {
+//     title: "Lunch",
+//     time: "2:00 PM – 3:00 PM",
+//     side: "right",
+//   },
+//   {
+//     title: "Keynote Speaker",
+//     time: "3:00 PM – 3:30 PM",
+//     side: "left",
+//   },
+//   {
+//     title: "Panel Discussion 2",
+//     time: "3:30 PM – 4:00 PM",
+//     side: "right",
+//   },
+//   {
+//     title: "Panel Discussion 3",
+//     time: "4:00 PM – 4:30 PM",
+//     side: "left",
+//   },
+//   {
+//     title: "Break-out Session",
+//     time: "4:30 PM – 5:00 PM",
+//     side: "right",
+//   },
+//   {
+//     title: "Closing and Networking",
+//     time: "5:00 PM – 5:30 PM",
+//     side: "left",
+//   },
+// ];
+// export const scheduleItems = [
+//   {
+//     title: "Opening Address",
+//     time: "12:00 PM – 12:15 PM",
+//     start: "2026-07-25T12:00:00+05:30",
+//     end: "2026-07-25T12:15:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Welcome Address",
+//     time: "12:15 PM – 12:30 PM",
+//     start: "2026-07-25T12:15:00+05:30",
+//     end: "2026-07-25T12:30:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Keynote Address",
+//     time: "12:30 PM – 12:45 PM",
+//     start: "2026-07-25T12:30:00+05:30",
+//     end: "2026-07-25T12:45:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Leadership Talks",
+//     time: "12:45 PM – 01:30 PM",
+//     start: "2026-07-25T12:45:00+05:30",
+//     end: "2026-07-25T13:30:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Panel Discussion 1",
+//     time: "1:30 PM – 2:00 PM",
+//     start: "2026-07-25T13:30:00+05:30",
+//     end: "2026-07-25T14:00:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Lunch",
+//     time: "2:00 PM – 3:00 PM",
+//     start: "2026-07-25T14:00:00+05:30",
+//     end: "2026-07-25T15:00:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Keynote Speaker",
+//     time: "3:00 PM – 3:30 PM",
+//     start: "2026-07-25T15:00:00+05:30",
+//     end: "2026-07-25T15:30:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Panel Discussion 2",
+//     time: "3:30 PM – 4:00 PM",
+//     start: "2026-07-25T15:30:00+05:30",
+//     end: "2026-07-25T16:00:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Panel Discussion 3",
+//     time: "4:00 PM – 4:30 PM",
+//     start: "2026-07-25T16:00:00+05:30",
+//     end: "2026-07-25T16:30:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Break-out Session",
+//     time: "4:30 PM – 5:00 PM",
+//     start: "2026-07-25T16:30:00+05:30",
+//     end: "2026-07-25T17:00:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Closing and Networking",
+//     time: "5:00 PM – 5:30 PM",
+//     start: "2026-07-25T17:00:00+05:30",
+//     end: "2026-07-25T17:30:00+05:30",
+//     side: "left",
+//   },
+// ];
+
+const now = new Date();
+
+const tenMinutesAgo = new Date(now.getTime() - 10 * 60 * 1000);
+const thirtyMinutesLater = new Date(now.getTime() + 30 * 60 * 1000);
 
 export const scheduleItems = [
   {
-    time: "12:00",
-    title: "Speaker Presentations",
-    color: "blue",
+    title: "Live Test Session",
+    time: "Currently Running",
+    start: tenMinutesAgo.toISOString(),
+    end: thirtyMinutesLater.toISOString(),
+    side: "left",
+  },
+
+  {
+    title: "Opening Address",
+    time: "12:00 PM – 12:15 PM",
+    start: "2026-07-25T12:00:00+05:30",
+    end: "2026-07-25T12:15:00+05:30",
+    side: "left",
   },
   {
-    time: "02:00",
+    title: "Welcome Address",
+    time: "12:15 PM – 12:30 PM",
+    start: "2026-07-25T12:15:00+05:30",
+    end: "2026-07-25T12:30:00+05:30",
+    side: "right",
+  },
+  {
+    title: "Keynote Address",
+    time: "12:30 PM – 12:45 PM",
+    start: "2026-07-25T12:30:00+05:30",
+    end: "2026-07-25T12:45:00+05:30",
+    side: "left",
+  },
+  {
+    title: "Leadership Talks",
+    time: "12:45 PM – 01:30 PM",
+    start: "2026-07-25T12:45:00+05:30",
+    end: "2026-07-25T13:30:00+05:30",
+    side: "right",
+  },
+  {
+    title: "Panel Discussion 1",
+    time: "1:30 PM – 2:00 PM",
+    start: "2026-07-25T13:30:00+05:30",
+    end: "2026-07-25T14:00:00+05:30",
+    side: "left",
+  },
+  {
     title: "Lunch",
-    color: "gold",
+    time: "2:00 PM – 3:00 PM",
+    start: "2026-07-25T14:00:00+05:30",
+    end: "2026-07-25T15:00:00+05:30",
+    side: "right",
   },
   {
-    time: "02:45",
-    title: "Panel Discussions",
-    color: "blue",
+    title: "Keynote Speaker",
+    time: "3:00 PM – 3:30 PM",
+    start: "2026-07-25T15:00:00+05:30",
+    end: "2026-07-25T15:30:00+05:30",
+    side: "left",
   },
   {
-    time: "04:30",
-    title: "Breakout Session and Networking",
-    color: "gold",
+    title: "Panel Discussion 2",
+    time: "3:30 PM – 4:00 PM",
+    start: "2026-07-25T15:30:00+05:30",
+    end: "2026-07-25T16:00:00+05:30",
+    side: "right",
+  },
+  {
+    title: "Panel Discussion 3",
+    time: "4:00 PM – 4:30 PM",
+    start: "2026-07-25T16:00:00+05:30",
+    end: "2026-07-25T16:30:00+05:30",
+    side: "left",
+  },
+  {
+    title: "Break-out Session",
+    time: "4:30 PM – 5:00 PM",
+    start: "2026-07-25T16:30:00+05:30",
+    end: "2026-07-25T17:00:00+05:30",
+    side: "right",
+  },
+  {
+    title: "Closing and Networking",
+    time: "5:00 PM – 5:30 PM",
+    start: "2026-07-25T17:00:00+05:30",
+    end: "2026-07-25T17:30:00+05:30",
+    side: "left",
   },
 ];
 

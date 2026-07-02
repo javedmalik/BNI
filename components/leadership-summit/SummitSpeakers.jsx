@@ -43,7 +43,7 @@ export default function SummitSpeakers() {
             <div className={styles.speakerInfo}>
               <h3>{speaker.name}</h3>
               <p className={styles.designation}>{speaker.designation}</p>
-              <h4>{speaker.topic}</h4>
+              {/* <h4>{speaker.topic}</h4> */}
               <p>{speaker.description}</p>
             </div>
           </div>

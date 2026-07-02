@@ -1,5 +1,8 @@
 import styles from "../../styles/LeadershipSummitRegister.module.css";
 
+const GOOGLE_MAPS_URL =
+  "https://www.google.com/maps/dir//Shangri-La+Eros+New+Delhi,+19,+Ashoka+Rd,+Janpath,+Connaught+Place,+New+Delhi,+Delhi+110001/@28.6318129,77.4111566,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390ce2ca85e71fd1:0xa3186e3af651dd0c!2m2!1d77.218168!2d28.6209501?entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D";
+
 export default function SummitAbout() {
   return (
     <section className={styles.aboutSection}>
@@ -27,7 +30,7 @@ export default function SummitAbout() {
         <div className={styles.eventMeta}>
           <div>
             <span>🕒</span>
-            <strong>10:00 AM</strong>
+            <strong>12:00 PM</strong>
           </div>
 
           <div>
@@ -35,10 +38,15 @@ export default function SummitAbout() {
             <strong>July 25, 2026</strong>
           </div>
 
-          <div>
+          <a
+            href={GOOGLE_MAPS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.locationLink}
+          >
             <span>📍</span>
-            <strong>Shangri-La Eros, New Delhi</strong>
-          </div>
+            <strong>  Shangri-La Eros, New Delhi</strong>
+          </a>
         </div>
       </div>
     </section>
