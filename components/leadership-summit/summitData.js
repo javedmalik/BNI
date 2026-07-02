@@ -194,20 +194,100 @@ export const speakers = [
 //   },
 // ];
 
-const now = new Date();
+// const now = new Date();
 
-const tenMinutesAgo = new Date(now.getTime() - 10 * 60 * 1000);
-const thirtyMinutesLater = new Date(now.getTime() + 30 * 60 * 1000);
+// const tenMinutesAgo = new Date(now.getTime() - 10 * 60 * 1000);
+// const thirtyMinutesLater = new Date(now.getTime() + 30 * 60 * 1000);
+
+// export const scheduleItems = [
+//   {
+//     title: "Live Test Session",
+//     time: "Currently Running",
+//     start: tenMinutesAgo.toISOString(),
+//     end: thirtyMinutesLater.toISOString(),
+//     side: "left",
+//   },
+
+//   {
+//     title: "Opening Address",
+//     time: "12:00 PM – 12:15 PM",
+//     start: "2026-07-25T12:00:00+05:30",
+//     end: "2026-07-25T12:15:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Welcome Address",
+//     time: "12:15 PM – 12:30 PM",
+//     start: "2026-07-25T12:15:00+05:30",
+//     end: "2026-07-25T12:30:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Keynote Address",
+//     time: "12:30 PM – 12:45 PM",
+//     start: "2026-07-25T12:30:00+05:30",
+//     end: "2026-07-25T12:45:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Leadership Talks",
+//     time: "12:45 PM – 01:30 PM",
+//     start: "2026-07-25T12:45:00+05:30",
+//     end: "2026-07-25T13:30:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Panel Discussion 1",
+//     time: "1:30 PM – 2:00 PM",
+//     start: "2026-07-25T13:30:00+05:30",
+//     end: "2026-07-25T14:00:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Lunch",
+//     time: "2:00 PM – 3:00 PM",
+//     start: "2026-07-25T14:00:00+05:30",
+//     end: "2026-07-25T15:00:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Keynote Speaker",
+//     time: "3:00 PM – 3:30 PM",
+//     start: "2026-07-25T15:00:00+05:30",
+//     end: "2026-07-25T15:30:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Panel Discussion 2",
+//     time: "3:30 PM – 4:00 PM",
+//     start: "2026-07-25T15:30:00+05:30",
+//     end: "2026-07-25T16:00:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Panel Discussion 3",
+//     time: "4:00 PM – 4:30 PM",
+//     start: "2026-07-25T16:00:00+05:30",
+//     end: "2026-07-25T16:30:00+05:30",
+//     side: "left",
+//   },
+//   {
+//     title: "Break-out Session",
+//     time: "4:30 PM – 5:00 PM",
+//     start: "2026-07-25T16:30:00+05:30",
+//     end: "2026-07-25T17:00:00+05:30",
+//     side: "right",
+//   },
+//   {
+//     title: "Closing and Networking",
+//     time: "5:00 PM – 5:30 PM",
+//     start: "2026-07-25T17:00:00+05:30",
+//     end: "2026-07-25T17:30:00+05:30",
+//     side: "left",
+//   },
+// ];
 
 export const scheduleItems = [
-  {
-    title: "Live Test Session",
-    time: "Currently Running",
-    start: tenMinutesAgo.toISOString(),
-    end: thirtyMinutesLater.toISOString(),
-    side: "left",
-  },
-
   {
     title: "Opening Address",
     time: "12:00 PM – 12:15 PM",
