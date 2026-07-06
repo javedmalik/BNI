@@ -1,12 +1,12 @@
 export const speakers = [
  
   {
-    name: "Mr. Mandeep Vats",
-    designation: "Senior Vice President – Global Operations (CEO Office), Doceree Operations & Business Strategy Leader.",
+    name: "Mr. Sanjeev Gangal",
+    designation: "Former Regional Head- Enterprise Business Tech Mahindra Ltd.",
     topic: "Topic Title Goes Here",
     description:
-      "Join us for an inspiring session with Mr. Mandeep Vats, who will share insights from his 28+ years of leadership, business transformation, and operational excellence. From leading global operations at organizations like Doceree, Birlasoft, Airtel, and Motherson Sumi to now being part of Vedaspark, his journey is filled with valuable lessons for every professional.",
-    image: "/images/leadership-summit/mv.jpg",
+      "Join Mr. Sanjeev Gangal as he shares insights from his 40+ years of leadership experience. Having led growth, transformation, and high-performing teams across industries, he will discuss the key lessons, strategies, and experiences that shaped his successful career. Discover how effective leadership, strategic thinking, and continuous learning can drive long-term success.",
+    image: "/images/leadership-summit/sg2.jpg",
   },
   {
     name: "Mr. Mudit Gangal",
@@ -290,36 +290,22 @@ export const speakers = [
 export const scheduleItems = [
   {
     title: "Opening Address",
-    time: "12:00 PM – 12:15 PM",
-    start: "2026-07-25T12:00:00+05:30",
-    end: "2026-07-25T12:15:00+05:30",
+    time: "11:30 AM – 11:45 AM",
+    start: "2026-07-25T11:30:00+05:30",
+    end: "2026-07-25T11:45:00+05:30",
     side: "left",
   },
   {
     title: "Welcome Address",
-    time: "12:15 PM – 12:30 PM",
-    start: "2026-07-25T12:15:00+05:30",
-    end: "2026-07-25T12:30:00+05:30",
+    time: "11:45 AM – 12:00 PM",
+    start: "2026-07-25T11:45:00+05:30",
+    end: "2026-07-25T12:00:00+05:30",
     side: "right",
   },
   {
-    title: "Keynote Address",
-    time: "12:30 PM – 12:45 PM",
-    start: "2026-07-25T12:30:00+05:30",
-    end: "2026-07-25T12:45:00+05:30",
-    side: "left",
-  },
-  {
-    title: "Leadership Talks",
-    time: "12:45 PM – 01:30 PM",
-    start: "2026-07-25T12:45:00+05:30",
-    end: "2026-07-25T13:30:00+05:30",
-    side: "right",
-  },
-  {
-    title: "Panel Discussion 1",
-    time: "1:30 PM – 2:00 PM",
-    start: "2026-07-25T13:30:00+05:30",
+    title: "Speaker’s Presentation",
+    time: "12:00 PM – 02:00 PM",
+    start: "2026-07-25T12:00:00+05:30",
     end: "2026-07-25T14:00:00+05:30",
     side: "left",
   },
@@ -338,32 +324,39 @@ export const scheduleItems = [
     side: "left",
   },
   {
-    title: "Panel Discussion 2",
+    title: "Panel Discussion 1",
     time: "3:30 PM – 4:00 PM",
     start: "2026-07-25T15:30:00+05:30",
     end: "2026-07-25T16:00:00+05:30",
     side: "right",
   },
   {
-    title: "Panel Discussion 3",
+    title: "Panel Discussion 2",
     time: "4:00 PM – 4:30 PM",
     start: "2026-07-25T16:00:00+05:30",
     end: "2026-07-25T16:30:00+05:30",
     side: "left",
   },
   {
-    title: "Break-out Session",
+    title: "Panel Discussion 3",
     time: "4:30 PM – 5:00 PM",
     start: "2026-07-25T16:30:00+05:30",
     end: "2026-07-25T17:00:00+05:30",
     side: "right",
   },
   {
-    title: "Closing and Networking",
-    time: "5:00 PM – 5:30 PM",
+    title: "Break-out Session",
+    time: "5:00 PM – 5:20 PM",
     start: "2026-07-25T17:00:00+05:30",
-    end: "2026-07-25T17:30:00+05:30",
+    end: "2026-07-25T17:20:00+05:30",
     side: "left",
+  },
+  {
+    title: "Closing and Networking",
+    time: "5:20 PM – Onwards",
+    start: "2026-07-25T17:20:00+05:30",
+    end: "2026-07-25T18:00:00+05:30",
+    side: "right",
   },
 ];
 
