@@ -69,7 +69,24 @@
   font-size: 22px;
   font-weight: 800;
   letter-spacing: 0.2px;
+  margin-left: 80px;
 }
+
+/* .heroButton {
+  font-family: Georgia, "Times New Roman", serif;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #17334b;
+  color: #fff;
+  text-decoration: none;
+  height: 44px;
+  min-width: 155px;
+  padding: 0 22px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+} */
 
 /* About */
 
