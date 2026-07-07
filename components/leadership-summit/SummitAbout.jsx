@@ -30,7 +30,7 @@ export default function SummitAbout() {
         <div className={styles.eventMeta}>
           <div>
             <span>🕒</span>
-            <strong>12:00 PM</strong>
+            <strong>11:30 AM</strong>
           </div>
 
           <div>
