@@ -23,15 +23,15 @@ export const speakers = [
    description:
   "Join us for an insightful session with Dr. Pankaj Mital, where he will share his perspectives on \"Building High Performing Teams\" and \"Why Failing is Important.\" Drawing from 35+ years of global leadership and entrepreneurship, he'll explore how strong teams are built, why failure is a catalyst for growth, and the lessons behind his latest book, Failure is the Highway to Success.",
     image: "/images/leadership-summit/pankaj-mital1.jpg",
-  }
-  // {
-  //   name: "Speaker Name",
-  //   designation: "Designation / Company",
-  //   topic: "Topic Title Goes Here",
-  //   description:
-  //     "Add a short speaker introduction or 2 to 3 lines that set context before the session begins.",
-  //   image: "",
-  // },
+  },
+  {
+    name: "Mr. Nikhil Ghorpade",
+    designation: "Founder and Director– V B Technologies & Founder of Vatsala Welfare Foundation",
+    topic: "Topic Title Goes Here",
+    description:
+      "Please join Mr. Nikhil Ghorpade as he shares his inspiring journey, entrepreneurial experiences, and the lessons that have shaped his successful career. With over 18+year  experience, Mr. Ghorpade has founded and led impactful ventures in technology and social welfare. His expertise spans business development, resource management, and strategic growth, with a proven record of building organizations that drive innovation and create meaningful change.",
+    image: "/images/leadership-summit/nkg.jpg",
+  },
 ];
 
 // export const scheduleItems = [
