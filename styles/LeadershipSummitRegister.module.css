@@ -18,6 +18,17 @@
   max-width: 1200px;
 }
 
+.heroLogoLink {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.heroLogoLink:focus-visible {
+  outline: 2px solid #17334b;
+  outline-offset: 6px;
+  border-radius: 6px;
+}
+
 
 .heroLogo {
   width: 180px;
